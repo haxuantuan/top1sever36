@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.full-heigh{
+    height: 100vh;
+}
+.home{
+    /*background-image: linear-gradient(to right, #4daf54, #3d8880);*/
+    background-image: url('https://scontent.fhan4-3.fna.fbcdn.net/v/t1.15752-9/273855552_342837011099014_5428028375091814157_n.png?_nc_cat=103&ccb=1-5&_nc_sid=ae9488&_nc_ohc=E3Gykmn2uSMAX-sbX7U&_nc_ht=scontent.fhan4-3.fna&oh=03_AVJMoeWJQbctKvZUKHDrDs9tRmRTW2Yb1C44tmWEwSPpZg&oe=6243BA19');
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.heading{
+    width: 201px;
+    padding-left: 54px;
+
+}
+.heading ul{
+    list-style: none;
+
+}
+.heading ul li {
+    font-size: 20px;
+    background: #bdb6b6;
+    margin: 50px 0;
+    text-align: center;
+   
+}
+
+a{
+    text-decoration: none;
+    color: greenyellow;
+    display: block;
+}
+@keyframes ulanimation{
+    from{
+        transform: translateX(-200%);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+.heading h1{
+    
+}
+.heading p{
+    font-size: 20px;
+    transition-delay: 0.2s;
+    animation: leftright ease-in 1s;
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-image: url('https://scontent.fhan4-3.fna.fbcdn.net/v/t1.15752-9/273778781_642110863512797_2401525526121504670_n.png?_nc_cat=103&ccb=1-5&_nc_sid=ae9488&_nc_ohc=IfQEvusVdTgAX_hPSEP&_nc_ht=scontent.fhan4-3.fna&oh=03_AVL6bns1dfqrDluOkQBeRlcbmZvCGBfxTiRfKRUO7Edr3w&oe=624441DF');
+}
+.title{
+    background: black;
+    color: white;
+    border-radius: 10px;
+    padding: 0 20px;
+    margin: 20px;
+    width: 500px;
+    height: 140px;
+}
+.title h2{
+    margin: 10px 0;
+}
+.title p{
+    margin-bottom: 20px;
+}
+.team{
+    background: linear-gradient(180deg, #017c2c 50%, #fff 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.person{
+    width: 202px;
+    background: white;
+    margin: 0 25px;
+    box-shadow: 0 0 5px #2e363a;
+    border-radius: 10px;
+    padding: 20px;
+    transform: scale(0);
+    transition: 1s;
+}
+img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.person h1{
+    color: #4daf54;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.friend{
+    background: #4daf54;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.left-to-right{
+    transform: translateX(-200%);
+    transition: 1s;
+}
+.right-to-left{
+    transform: translateX(200%);
+    transition: 1s;
+}
+.start{
+    transform: translateX(0);
+}
+.zoom{
+    transform: scale(1);
+}
+.friend__bb{
+   width: 250px;
+   height: 210px;
+   background: #bdb6b6;
+   margin: 0 65px;
+   text-align: center;
+}
+.friend__bb h2{
+    margin-bottom: 20px;
+    animation: doimau ease 5s infinite;
+}
+@keyframes doimau{
+    from{
+        color: #4daf54;
+    }
+    to{
+        color: white;
+    }
+}
+.image{
+    width: 100%;
+    object-fit: cover;
+}
+.thongtin{
+    display: flex;
+    justify-content: center;
+    background: black;
+    color: white;
+}
+.fb{
+    margin: 10px 20px;
+}
+.icon-text{
+    display: flex;
+    align-items: center;
+}
+.icon-text h1{ 
+    color: blue;
+}
+.fb a{
+    color: white;
+}
+i{
+    font-size: 20px;
+    margin-right: 10px;
+    background: blue;
+}
